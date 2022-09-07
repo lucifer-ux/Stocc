@@ -1,6 +1,12 @@
 import React from 'react'
 import ImageToText from "./keyFeaturesImageToText"
 import TextToImage from "./keyFeaturesTextToImage"
+import Comp3 from "./com3"
+import Comp4 from "./Com4"
+import Comp5 from "./Comp5"
+import Comp6 from "./Comp6"
+import Comp7 from "./Comp7"
+import Comp8 from "./Comp8"
 import styled from 'styled-components'
 
 const Title = styled.h1`
@@ -23,7 +29,14 @@ const keyFeature = () => {
     <Container >
         <Title>Key Features</Title>
         <ImageToText/>
-        <TextToImage/>
+        <TextToImage/> 
+        <Comp3 />
+        <Comp4/> 
+        <Comp5/>
+        <Comp6/> 
+        <Comp7/>
+        <Comp8/>
+        
     </Container>
   )
 }

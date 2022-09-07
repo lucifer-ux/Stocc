@@ -55,22 +55,45 @@ Aos.init({duration:1000});
   </Title>
   <Container data-aos = "fade-left">
       <Heading>
-          heading
+          Q2 2022(Completed)
       </Heading>
   </Container>
   <Container data-aos = "fade-right">
       <SubHeading>
-        SubHeading
+        Metaverse and Avatar Pipeline POC
       </SubHeading>
   </Container>
   <Container data-aos = "fade-left">
       <Heading>
-        heading
+        Q3 2022(Completed)
+      </Heading>
+  </Container>
+
+  <Container data-aos = "fade-right">
+      <SubHeading>
+        NFT smart contract deployed on the blockchain
+      </SubHeading>
+  </Container>
+  
+  <Container data-aos = "fade-left">
+      <Heading>
+      Q4 2022(UpComing)
       </Heading>
   </Container>
   <Container data-aos = "fade-right">
       <SubHeading>
-        SubHeading
+        Launch of DDW Global Dating server
+      </SubHeading>
+  </Container>
+  
+  <Container data-aos = "fade-left">
+      <Heading>
+      Q1 2023(UpComing)
+      </Heading>
+  </Container>
+  <Container data-aos = "fade-right">
+      <SubHeading>
+        $DDW Token Launch
       </SubHeading>
   </Container>
 

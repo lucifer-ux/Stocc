@@ -1,5 +1,5 @@
 import React from 'react'
-import box1Elements from "../../assets/team.jpg"
+import DDWImg1 from "../../DDW_Items/DDW1.png"
 import styled from 'styled-components'
 import 'aos/dist/aos.css';
 import Aos from "aos"
@@ -37,10 +37,10 @@ const KeyFeatures = () => {
     <Section data-aos = "zoom-in">
      <Container>
      <Box>
-        <h1>Lorem Ipsum Dolor Sit AmetLorem Ipsum Dolor Sit Amet</h1>
+          <h1>Reinvent Yourself</h1>
      </Box>
      <Box>
-        <img height={500} src={box1Elements}/>
+          <img height={500} src={DDWImg1}/>
      </Box>
      </Container>
    </Section>

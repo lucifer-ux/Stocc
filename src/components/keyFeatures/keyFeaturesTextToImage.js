@@ -1,5 +1,5 @@
 import React from 'react'
-import box1Elements from "../../assets/team.jpg"
+import DDWImg from "../../DDW_Items/DDW2.png"
 import styled from 'styled-components'
 import Aos from "aos"
 import { useEffect } from 'react';
@@ -39,10 +39,10 @@ const KeyFeatures = () => {
     <Section data-aos = "zoom-in">
      <Container>
      <Box>
-     <img height={500} src={box1Elements}/>
+          <img height={500} src={DDWImg}/>
      </Box>
      <Box>
-     <h1>Lorem Ipsum Dolor Sit AmetLorem Ipsum Dolor Sit Amet</h1>
+          <h1>AI-based DreamDate (DD) Score</h1>
      </Box>
      </Container>
    </Section>
