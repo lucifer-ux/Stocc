@@ -2,6 +2,8 @@
     float: right;
     height: 50px;
     width: 50px;
+    margin-top: 10px;
+    margin-right: 70px;
 }
 .Volume_container{
     font-size: 3em;

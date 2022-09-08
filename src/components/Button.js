@@ -14,6 +14,10 @@ transition: all 0.2s ease;
 &:hover{
     transform: scale(0.9);
 }
+@media (max-width: 650px)
+{
+  font-size: 0.6rem;
+}
 
 &::after{
     content: ' ';
