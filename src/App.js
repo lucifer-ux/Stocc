@@ -11,10 +11,11 @@ import { useEffect } from 'react';
 import Faq from './components/sections/Faq'
 import Footer from './components/Footer'
 import Card from './components/Card/Card.js';
-import KeyFeatures from './components/keyFeatures/keyFeature.js';
+
 import Team from './components/sections/Team.js';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer.js';
 import ScrollToTop from "react-scroll-to-top";
+import KeyFeatures from "./components/keyFeatures/KeyFeatures"
 function App() {
   return (
     <>

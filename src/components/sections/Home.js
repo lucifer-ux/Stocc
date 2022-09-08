@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import TypeWriter from '../TypeWriter'
 import Button from '../Button';
 import 'aos/dist/aos.css';
 import Aos from "aos"
