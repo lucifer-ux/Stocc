@@ -38,9 +38,9 @@ transition: all 0.2s ease;
 `
 const Button = ({text, link}) => {
   return (
-    <Btn>
-        <a href = {link}  target="_blank" rel = "noreferrer">{text}</a>
-    </Btn>
+        <a href = {link}  target="_blank" rel = "noreferrer">
+          <Btn>{text}</Btn>
+          </a>
   )
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Button from '../Button';
+// import Button from '../Button';
 import 'aos/dist/aos.css';
 import Aos from "aos"
 import { useEffect } from 'react';
@@ -17,12 +17,12 @@ margin-top: 5%;
 margin-left: 30%;
 position: relative;
 `
-const ButtonContainer = styled.div`
-width: 100%;
-margin-left: 15%;
-margin-top: 10%;
-align-self: flex-start;
-`
+// const ButtonContainer = styled.div`
+// width: 100%;
+// margin-left: 15%;
+// margin-top: 10%;
+// align-self: flex-start;
+// `
 const Home = () => {
   useEffect(()=>{
     Aos.init({duration:1000});

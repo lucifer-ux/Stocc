@@ -37,7 +37,7 @@
 .footer-links
 {
   padding-left:0;
-  list-style:none
+  list-style:none;
 }
 .footer-links li
 {
@@ -162,4 +162,7 @@
     margin-right:0;
     font-weight:600
   }
+  .footer-links{
+    font-size: 8px;
+justify-content: space-between;  }
 }

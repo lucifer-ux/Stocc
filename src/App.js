@@ -3,16 +3,15 @@ import GloabalStyles from "./styles/GlobalStyles.js"
 import {light} from './styles/Themes'
 import Navigation from './components/Navigation';
 import Home from './components/sections/Home'
-import About from './components/sections/About'
+// import About from './components/sections/About'
 import RoadMap from './components/sections/Roadmap'
-import { useEffect } from 'react';
 // import Team from './components/sections/Team'
 // import RoadMap from './components/Roadmap/RoadMap.js';
-import Faq from './components/sections/Faq'
+// import Faq from './components/sections/Faq'
 import Footer from './components/Footer'
-import Card from './components/Card/Card.js';
+// import Card from './components/Card/Card.js';
 
-import Team from './components/sections/Team.js';
+// import Team from './components/sections/Team.js';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer.js';
 import ScrollToTop from "react-scroll-to-top";
 import KeyFeatures from "./components/keyFeatures/KeyFeatures"
@@ -24,14 +23,14 @@ function App() {
       <ThemeProvider theme={light}>
         <Navigation/>
         <ScrollToTop/>
-        <Home   />
+        <Home  id = "Home" />
         {/* <About/> */}
         {/* <RoadMap/> */}
-        <RoadMap   />
+        <KeyFeatures id = "KeyFeatures"/>
+        <RoadMap  id="RoadMap" />
         {/* <Team/> */}
-        <KeyFeatures/>
         {/* <Card/> */}
-        <Faq   />
+        {/* <Faq   /> */}
         <Footer   />
       </ThemeProvider>  
       

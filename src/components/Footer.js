@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Banner from './Banner'
+// import Banner from './Banner'
 import "../styles/Footer.css"
 import {FaTwitter, FaGithub, FaLinkedin, FaInstagram}  from "react-icons/fa"
 import { useEffect } from 'react'
@@ -39,7 +39,7 @@ flex-direction: column;
 const UnderLine = styled.ul`
 display: flex;
 flex-direction: row;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 margin-bottom: 1%;
 `

@@ -36,10 +36,18 @@ position: relative;
 const Heading = styled.div`
 font-size: 44px;
 color: #f9429e;
+@media (max-width: 650px)
+{
+  font-size: 34px;
+}
 `
 const SubHeading = styled.div`
 font-size: 26px;
 color: #000000;
+@media (max-width: 650px)
+{
+  font-size: 16px;
+}
 `
 
 const Roadmap = ({title, subtext}) => {
@@ -49,7 +57,7 @@ Aos.init({duration:1000});
 },[])
 
   return(
-<Section data-aos = "zoom-in">
+<Section data-aos = "zoom-in" id = "RoadMap">
   <Title>
     RoadMap
   </Title>

@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import Aos from "aos"
 import { useEffect } from 'react';
 import content from "../../assets/arrays/imageTextMapper"
-
+import dimensions from "../../assets/Hooks/WindowDimensions"
 const Title = styled.h1`
 font-size: ${props => props.theme.fontxxl};
 text-transform: capitalize;
@@ -29,31 +29,42 @@ background-color: ${props => props.theme.body};
 `
 
 const Container = styled.div`
-width:75%;
+width:100%;
 min-height: 50vh;
 margin: 0 auto;
 display: flex;
 justify-content: center;
 align-items: center;
+@media(max-width: 650px)
+{
+  flex-direction: column;
+}
 `
 const Box = styled.div`
-width: 50%;
+width: 100%;
 height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center`
+align-items: center;
+@media(max-width: 650px)
+{
+  margin: 10px;
+  padding: 10px;
+}
+`
 
 const KeyFeatures = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, [])
+  const {height, width} = dimensions();
   return (
-    <OuterContainer>
-      <Title />
+    <OuterContainer id = "KeyFeatures">
+      <Title> Key Features</Title>
       <Section data-aos="zoom-in">
-        ({
-          content.map((val, i) =>
+        { width>650 ? 
+          (content.map((val, i) =>
             (i % 2) ? <Container data-aos="zoom-in">
               <Box>
                 <img height={400} src={val.img} alt='key-features' />
@@ -69,7 +80,20 @@ const KeyFeatures = () => {
                 </Box><Box>
                   <img height={400} src={val.img} alt='key-features' />
                 </Box>
-              </Container>)})
+              </Container>
+              ))
+            :
+            ((content.map((val, i) =>
+             <Container data-aos="zoom-in">
+              <Box>
+                <img height={400} src={val.img} alt='key-features' />
+              </Box><Box>
+                <h1>{val.text}</h1>
+                <p>{val.subText}</p>
+              </Box>
+            </Container> 
+              )))
+            }
       </Section>
     </OuterContainer>
   )

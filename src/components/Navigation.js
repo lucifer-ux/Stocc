@@ -102,11 +102,11 @@ const Navigation = () => {
           &nbsp;
         </HamburgerMenu>
         <Menu click= {click}>
-          <MenuItem>Home</MenuItem>
-          <MenuItem>About</MenuItem>
-          <MenuItem>Roadmap</MenuItem>
-          <MenuItem>Team</MenuItem>
-          <MenuItem>Faq</MenuItem>
+         <a href="#Home"><MenuItem>Home</MenuItem></a> 
+         <a href="#KeyFeatures"> <MenuItem>Key Features</MenuItem></a>
+         <a href="#RoadMap"> <MenuItem>Roadmap</MenuItem></a>
+          {/* <MenuItem>Team</MenuItem> */}
+          {/* <MenuItem>Faq</MenuItem> */}
         </Menu>
         <Button text={"JOIN US"} link={"https://linktr.ee/dreamdateworld"}/>
       </Navbar>
