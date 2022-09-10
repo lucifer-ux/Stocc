@@ -28,7 +28,7 @@ function App() {
         {/* <About/> */}
         {/* <RoadMap/> */}
         <RoadMap   />
-        <Team/>
+        {/* <Team/> */}
         <KeyFeatures/>
         {/* <Card/> */}
         <Faq   />

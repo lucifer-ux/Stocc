@@ -10,49 +10,39 @@ import textObject from "./textObject";
 
 const elements = [
   {
-img: img1,
-text:   textObject.text1,
-},
-{
-  img: img2,
-  text:   textObject.text2,
-},
-{
-  img: img3,
-  text:   textObject.text3,
-},{
-  img: img4,
-  text:   textObject.text4,
-},{
-  img: img5,
-  text:   textObject.text5,
-},{
-  img: img6,
-  text:   textObject.text6,
-},{
-  img: img7,
-  text:   textObject.text7,
-},{
-  img: img8,
-  text:   textObject.text8,
-},
+    img: img1,
+    text: textObject.text1,
+    subText: textObject.subText1
+  },
+  {
+    img: img2,
+    text: textObject.text2,
+    subText: textObject.subText2
+  },
+  {
+    img: img3,
+    text: textObject.text3,
+    subText: textObject.subText3
+  }, {
+    img: img4,
+    text: textObject.text4,
+    subText: textObject.subText4
+  }, {
+    img: img5,
+    text: textObject.text5,
+    subText: textObject.subText5
+  }, {
+    img: img6,
+    text: textObject.text6,
+    subText: textObject.subText6
+  }, {
+    img: img7,
+    text: textObject.text7,
+    subText: textObject.subText7
+  }, {
+    img: img8,
+    text: textObject.text8,
+    subText: textObject.subText8
+  },
 ]
-// const elements = [
-//   img1,
-//   textObject.text1,
-//   textObject.text2,
-//   img2,
-//   img3,
-//   textObject.text3,
-//   textObject.text4,
-//   img4,
-//   img5,
-//   textObject.text5,
-//   textObject.text6,
-//   img6,
-//   img7,
-//   textObject.text7,
-//   textObject.text8,
-//   img8,
-// ];
 export default elements;

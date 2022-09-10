@@ -29,9 +29,9 @@ const Home = () => {
     },[])    
   return (<>
      <Container data-aos="zoom-in" id='Home'>
-     <ButtonContainer>
+     {/* <ButtonContainer>
      <Button text={"JOIN US"}/>
-     </ButtonContainer> 
+     </ButtonContainer>  */} 
      </Container>     
 
 

@@ -34,7 +34,7 @@ list-style: none;
   backdrop-filter: blur(3px);
   flex-direction: column;
   justify-content: center;
-  transform ${props => props.click ? "translateY(0)" : "translateY(100%)"};
+  transform: ${props => props.click ? "translateY(0)" : "translateY(100%)"};
   transition: 0.5s ease;
   
 }
@@ -108,7 +108,7 @@ const Navigation = () => {
           <MenuItem>Team</MenuItem>
           <MenuItem>Faq</MenuItem>
         </Menu>
-        <Button text={"JOIN US"} link={"https://www.google.com/"}/>
+        <Button text={"JOIN US"} link={"https://linktr.ee/dreamdateworld"}/>
       </Navbar>
     </Section>
   )

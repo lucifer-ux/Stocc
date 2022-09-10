@@ -45,31 +45,33 @@ justify-content: center;
 align-items: center`
 
 const KeyFeatures = () => {
-  useEffect(()=>{
-    Aos.init({duration:1000});
-    },[])    
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, [])
   return (
     <OuterContainer>
-    <Title/>
-    <Section data-aos = "zoom-in">
-   ({
-     content.map((val,i)=>
-      (i%2) ?<Container data-aos = "zoom-in">
-      <Box>
-      <img height={400} src={val.img} alt='key-features'/>
-      </Box><Box>
-      <h1>{val.text}</h1>
-      </Box>
-      </Container> :
-      <Container data-aos = "zoom-in">
-      <Box>
-      <h1>{val.text}</h1>
-      </Box><Box>
-      <img height={400} src={val.img} alt='key-features'/>
-      </Box>
-      </Container>)})
-   </Section>
-   </OuterContainer>
+      <Title />
+      <Section data-aos="zoom-in">
+        ({
+          content.map((val, i) =>
+            (i % 2) ? <Container data-aos="zoom-in">
+              <Box>
+                <img height={400} src={val.img} alt='key-features' />
+              </Box><Box>
+                <h1>{val.text}</h1>
+                <p>{val.subText}</p>
+              </Box>
+            </Container> :
+              <Container data-aos="zoom-in">
+                <Box>
+                  <h1>{val.text}</h1>
+                  <p>{val.subText}</p>
+                </Box><Box>
+                  <img height={400} src={val.img} alt='key-features' />
+                </Box>
+              </Container>)})
+      </Section>
+    </OuterContainer>
   )
 }
 

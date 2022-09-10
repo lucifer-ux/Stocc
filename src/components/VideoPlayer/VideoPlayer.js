@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState} from "react";
-import smaple from '../../assets/V1DDW.mp4'
+import smaple from '../../assets/DDWWebsiteVideo.mp4'
 import MuteButton from './MuteButton';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faVolumeMute } from '@fortawesome/free-solid-svg-icons'

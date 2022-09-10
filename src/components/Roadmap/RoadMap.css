@@ -108,7 +108,18 @@ body {
     filter: grayscale(100%);
   }
 
+@media(max-width:650px){
+  body{
+    font-size: 12px;
+  }
+  .tl-content h1 {
+    font-size: 0.6rem;
 
+  }
+  .tl-year p {
+font-size:0.6rem;
+}
+}
 /* .parent {
     background: #3da3d5;
     font-family: "Montserrat", sans-serif;
