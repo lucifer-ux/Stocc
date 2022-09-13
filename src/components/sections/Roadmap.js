@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import styled from 'styled-components'
-import "../Roadmap/RoadMap.css"
+// import "../Roadmap/RoadMap.css"
 import 'aos/dist/aos.css';
 import Aos from "aos"
 
@@ -11,6 +11,7 @@ min-height:100vh;
 width: 100vw;
 background-color: ${props => props.theme.body};
 position: relative;
+margin-right: 1%;
 `
 const Title = styled.h1`
 font-size: ${props => props.theme.fontxxl};

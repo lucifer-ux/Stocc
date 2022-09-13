@@ -14,7 +14,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin-top: 5%;
-margin-left: 30%;
+/* margin-left: 30%; */
 position: relative;
 `
 // const ButtonContainer = styled.div`

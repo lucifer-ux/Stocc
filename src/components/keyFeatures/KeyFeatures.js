@@ -53,6 +53,10 @@ align-items: center;
   padding: 10px;
 }
 `
+const Para = styled.p`
+margin-right: 1%;
+margin-top: 1%;
+`
 
 const KeyFeatures = () => {
   useEffect(() => {
@@ -70,13 +74,13 @@ const KeyFeatures = () => {
                 <img height={400} src={val.img} alt='key-features' />
               </Box><Box>
                 <h1>{val.text}</h1>
-                <p>{val.subText}</p>
+                <Para>{val.subText}</Para>
               </Box>
             </Container> :
               <Container data-aos="zoom-in">
                 <Box>
                   <h1>{val.text}</h1>
-                  <p>{val.subText}</p>
+                  <Para>{val.subText}</Para>
                 </Box><Box>
                   <img height={400} src={val.img} alt='key-features' />
                 </Box>
@@ -89,7 +93,7 @@ const KeyFeatures = () => {
                 <img height={400} src={val.img} alt='key-features' />
               </Box><Box>
                 <h1>{val.text}</h1>
-                <p>{val.subText}</p>
+                <Para>{val.subText}</Para>
               </Box>
             </Container> 
               )))
