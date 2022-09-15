@@ -1,22 +1,28 @@
 .Volume_container{
     float: right;
-    height: 50px;
-    width: 50px;
-    margin-top: 10px;
-    margin-right: 70px;
+    margin-top: 2%;
+    margin-right: 2%;
 }
 .Volume_container{
-    font-size: 3em;
+    font-size: 2em;
 }
 
 
 @media only screen and (max-width: 1250px){
     .Volume_container{
-        font-size: 2em;
+        /* font-size: 2em; */
+        margin-top: 2%;
     }
 }
 @media only screen and (max-width: 650px){
     .Volume_container{
-        font-size: 1.2em;
+        font-size: 1.7em;
+        margin-top: 4%;
+    }
+}
+@media only screen and (max-width: 450px){
+    .Volume_container{
+        font-size: 0.8em;
+        margin-top: 8%;
     }
 }

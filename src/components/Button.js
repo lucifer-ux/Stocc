@@ -18,6 +18,11 @@ transition: all 0.2s ease;
 {
   font-size: 0.6rem;
 }
+@media (max-width: 500px)
+{
+  font-size: 0.2em;
+  padding: 0.4rem 1.2rem;
+}
 
 &::after{
     content: ' ';
@@ -38,7 +43,7 @@ transition: all 0.2s ease;
 `
 const Button = ({text, link}) => {
   return (
-        <a href = {link}  target="_blank" rel = "noreferrer">
+        <a style={{marginRight: 4}} href = {link}  target="_blank" rel = "noreferrer">
           <Btn>{text}</Btn>
           </a>
   )

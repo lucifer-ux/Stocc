@@ -11,7 +11,7 @@ min-height:100vh;
 width: 100vw;
 background-color: ${props => props.theme.body};
 position: relative;
-margin-right: 1%;
+margin-right: 2%;
 `
 const Title = styled.h1`
 font-size: ${props => props.theme.fontxxl};

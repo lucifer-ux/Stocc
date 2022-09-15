@@ -18,7 +18,7 @@ width: fit-content;
 `
 const OuterContainer = styled.div`
 margin-left: 1%;
-margin-right: 1%;
+margin-right: 5%;
 `
 
 const Section = styled.section`
@@ -54,7 +54,8 @@ align-items: center;
 }
 `
 const Para = styled.p`
-margin-right: 1%;
+margin-right: 5%;
+margin-left: 1%;
 margin-top: 1%;
 `
 
