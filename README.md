@@ -1,1 +1,1 @@
-Dream date world .. all rights reserved
+Stocc.. all rights reserved
