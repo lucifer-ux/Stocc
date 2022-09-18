@@ -57,6 +57,14 @@ const Para = styled.p`
 margin-right: 5%;
 margin-left: 1%;
 margin-top: 1%;
+font-size: 1.5em;
+width: 45vw;
+color: grey;
+`
+const Heading = styled.h1`
+font-size: 2.5em;
+color: black;
+display: flex;
 `
 
 const KeyFeatures = () => {
@@ -65,22 +73,22 @@ const KeyFeatures = () => {
   }, [])
   const {height, width} = dimensions();
   return (
-    <OuterContainer id = "KeyFeatures">
+    <OuterContainer data-aos = "zoom-out-up" id = "KeyFeatures">
       <Title> Key Features</Title>
-      <Section data-aos="zoom-in">
+      <Section data-aos="zoom-out-up">
         { width>650 ? 
           (content.map((val, i) =>
-            (i % 2) ? <Container data-aos="zoom-in">
+            (i % 2) ? <Container data-aos="zoom-out-up">
               <Box>
                 <img height={400} src={val.img} alt='key-features' />
               </Box><Box>
-                <h1>{val.text}</h1>
+                <Heading>{val.text}</Heading>
                 <Para>{val.subText}</Para>
               </Box>
             </Container> :
-              <Container data-aos="zoom-in">
+              <Container data-aos="zoom-out-up">
                 <Box>
-                  <h1>{val.text}</h1>
+                  <Heading>{val.text}</Heading>
                   <Para>{val.subText}</Para>
                 </Box><Box>
                   <img height={400} src={val.img} alt='key-features' />
@@ -89,11 +97,11 @@ const KeyFeatures = () => {
               ))
             :
             ((content.map((val, i) =>
-             <Container data-aos="zoom-in">
+             <Container data-aos="zoom-out-up">
               <Box>
                 <img height={400} src={val.img} alt='key-features' />
               </Box><Box>
-                <h1>{val.text}</h1>
+                <Heading>{val.text}</Heading>
                 <Para>{val.subText}</Para>
               </Box>
             </Container> 

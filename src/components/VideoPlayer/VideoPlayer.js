@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState} from "react";
-import smaple from '../../assets/DDWWebsiteVideo.mp4'
-import MuteButton from './MuteButton';
+import smaple from '../../assets/background.mp4'
+// import MuteButton from './MuteButton';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faVolumeMute } from '@fortawesome/free-solid-svg-icons'
 import { faVolumeUp } from '@fortawesome/free-solid-svg-icons'
@@ -26,12 +26,11 @@ const VideoPlayer = () => {
       objectFit: "cover",
       transform: "translate(-50%,-50%)",
       zIndex: "-3",
-      opacity: "0.5",
+      opacity: "1",
     }}
     >
     <source src={smaple} type='video/mp4' />
     </video>
-    <MuteButton isMuted={isMuted} _toggleMuteButton={toggleMute}/>
     </>
   )
 }

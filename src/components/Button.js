@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 const Btn = styled.button`
 display: inline-block;
-background-color: ${props => props.theme.text};
-color: ${props => props.theme.body};
+background-color: ${props => props.theme.body};
+color: ${props => props.theme.text};
 outline: none;
 border: none;
 font-size: 1.2rem;
@@ -30,7 +30,7 @@ transition: all 0.2s ease;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%) scale(0);
-    border: 2px solid ${props => props.theme.text};
+    border: 2px solid ${props => props.theme.body};
     width:100%;
     height:100%;
     border-radius: 50px;

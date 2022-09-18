@@ -61,11 +61,11 @@ const Footer = () => {
       <Container className="container">
             <Head>Quick Links</Head>
             <UnderLine className="footer-links">
-              <li><a href="http://scanfcode.com/about/">About Us</a></li>
-              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Contribute</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Sitemap</a></li>
             </UnderLine>
         <hr/>
       </Container>
@@ -73,10 +73,10 @@ const Footer = () => {
         <div className="row">
           <QuickLinks className="col-md-4 col-sm-6 col-xs-12">
             <ul className="social-icons">
-                <li><a className="facebook" href="https://www.instagram.com/dreamdateworld/"><i className="fa fa-facebook"><FaInstagram/></i></a></li>
-                <li><a className="twitter" href="https://twitter.com/dreamdateworld"><i className="fa fa-twitter"><FaTwitter/> </i></a></li>
-              {/* <li><a className="dribbble" href="#"><i className="fa fa-dribbble"><FaGithub/></i></a></li> */}
-                <li><a className="linkedin" href="https://www.linkedin.com/company/dreamdateworld/"><i className="fa fa-linkedin"><FaLinkedin/></i></a></li>   
+                <li><a className="facebook" href="#"><i className="fa fa-facebook"><FaInstagram/></i></a></li>
+                <li><a className="twitter" href="#"><i className="fa fa-twitter"><FaTwitter/> </i></a></li>
+              <li><a className="dribbble" href="#"><i className="fa fa-dribbble"><FaGithub/></i></a></li>
+                <li><a className="linkedin" href="#"><i className="fa fa-linkedin"><FaLinkedin/></i></a></li>   
             </ul>
           </QuickLinks>
           <div className="col-md-8 col-sm-6 col-xs-12">

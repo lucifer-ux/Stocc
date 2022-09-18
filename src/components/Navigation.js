@@ -41,7 +41,7 @@ list-style: none;
 `
 const MenuItem = styled.li`
 margin: 0 1rem;
-color: ${props => props.theme.text};
+color: ${props => props.theme.body};
 font-size: 1.5rem;
 cursor: pointer;
 &::after{
@@ -49,7 +49,7 @@ cursor: pointer;
   display: block;
   width:  0%;
   height: 2px;
-  background: ${props => props.theme.text};
+  background: ${props => props.theme.body};
   transition: width 0.3s ease;
 }
 &:hover::after{
@@ -103,11 +103,11 @@ const Navigation = () => {
         <Menu click= {click}>
          <a href="#Home"><MenuItem>Home</MenuItem></a> 
          <a href="#KeyFeatures"> <MenuItem onClick={()=> setClick(!click)}>Key Features</MenuItem></a>
-         <a href="#RoadMap"> <MenuItem onClick={()=> setClick(!click)}>Roadmap</MenuItem></a>
+         <a href="#Faq"> <MenuItem onClick={()=> setClick(!click)}>Faq</MenuItem></a>
           {/* <MenuItem>Team</MenuItem> */}
           {/* <MenuItem>Faq</MenuItem> */}
         </Menu>
-        <Button text={"JOIN US"} link={"https://linktr.ee/dreamdateworld"}/>
+        <Button text={"JOIN US"} link={"#"}/>
       </Navbar>
     </Section>
   )

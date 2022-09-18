@@ -7,9 +7,9 @@ import Home from './components/sections/Home'
 import RoadMap from './components/sections/Roadmap'
 // import Team from './components/sections/Team'
 // import RoadMap from './components/Roadmap/RoadMap.js';
-// import Faq from './components/sections/Faq'
+import Faq from './components/sections/Faq'
 import Footer from './components/Footer'
-// import Card from './components/Card/Card.js';
+import Card from './components/Card/Card.js';
 
 // import Team from './components/sections/Team.js';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer.js';
@@ -27,10 +27,10 @@ function App() {
         {/* <About/> */}
         {/* <RoadMap/> */}
         <KeyFeatures id = "KeyFeatures"/>
-        <RoadMap  id="RoadMap" />
+        {/* <RoadMap  id="RoadMap" /> */}
         {/* <Team/> */}
-        {/* <Card/> */}
-        {/* <Faq   /> */}
+        <Card/>
+        <Faq   />
         <Footer   />
       </ThemeProvider>  
       
