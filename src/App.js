@@ -22,7 +22,7 @@ function App() {
       <GloabalStyles/>
       <ThemeProvider theme={light}>
         <Navigation/>
-        <ScrollToTop/>
+        {/* <ScrollToTop/> */}
         <Home  id = "Home" />
         {/* <About/> */}
         {/* <RoadMap/> */}

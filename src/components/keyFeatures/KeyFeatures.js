@@ -18,18 +18,19 @@ width: fit-content;
 `
 const OuterContainer = styled.div`
 margin-left: 1%;
-margin-right: 5%;
+/* margin-right: 5%; */
 `
 
 const Section = styled.section`
 min-height: ${props => `calc(100vh - ${props.theme.navHeight})`};
-width: 100vw;
+/* max-width: 50vw; */
 position: relative;
 background-color: ${props => props.theme.body};
 `
 
 const Container = styled.div`
-width:100%;
+/* max-width: 70%; */
+/* width:100%; */
 min-height: 50vh;
 margin: 0 auto;
 display: flex;
@@ -41,7 +42,7 @@ align-items: center;
 }
 `
 const Box = styled.div`
-width: 100%;
+/* width: 100%; */
 height: 100%;
 display: flex;
 flex-direction: column;
@@ -49,12 +50,17 @@ justify-content: center;
 align-items: center;
 @media(max-width: 650px)
 {
-  margin: 10px;
-  padding: 10px;
+  /* margin: 10px; */
+  /* padding: 10px; */
 }
 `
+// const Para = styled.p`
+// margin-right: 5%;
+// margin-left: 1%;
+// margin-top: 1%;
+// `
 const Para = styled.p`
-margin-right: 5%;
+/* margin-right: 5%; */
 margin-left: 1%;
 margin-top: 1%;
 font-size: 1.5em;
